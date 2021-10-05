@@ -1,0 +1,15 @@
+* Para saber en que seccion se esta navegando, que se resalte el boton como
+  si fuera el hover. Ver diapositiva 83 de DI tema 1. Por si no queda claro.
+
+* Ver como realizar Breadcrumbs
+
+* Ver como realizar pestañas dentro de un sitio web.
+
+
+/**********************************************************/
+IMPORTANTE
+- Para el formulario de registro
+  - Labels: comunL
+  - Inputs: passT
+
+/**********************************************************/

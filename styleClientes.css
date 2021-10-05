@@ -1,0 +1,244 @@
+@font-face {
+    font-family: adv;
+    src: url(fuentes/aero/Aero\ Matics\ Bold.ttf);
+    font-family: adv1;
+    src: url(fuentes/aero/Aero\ Matics\ Regular.ttf);
+    
+}
+
+
+.cajaClientes{
+    display: block;
+    width: 80%;
+    height: 260px;
+    margin: auto;
+    padding: 30px; 
+    border-radius: 30%;
+    background-color: rgba(39, 35, 35, 0.548);
+
+}
+
+.cajaClientes a{
+    display: block;
+    width: 60%;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 13px;
+    margin: auto;
+    background-color: rgba(152, 63, 194, 0.884);
+
+}
+
+.cajaClientes a:first-child{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.cajaClientes a{
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: adv1;
+
+}
+
+.cajaClientes a:hover{
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.534);
+    color: rgb(174, 0, 255);
+
+}
+
+/*ACEPTAR*/
+
+.otroBody{
+    background: linear-gradient(rgba(129, 127, 127, 0.336), rgba(5, 7, 12, 0.973)),url(img/fondo_mobile_ii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.terminos{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.322);
+    filter: drop-shadow(0 0 0.9rem #7c2f8fbb);
+    
+
+}
+
+.terminos p{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.171);
+
+}
+
+main .aceptarButton{
+    background-color: rgba(92, 88, 88, 0.493);
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+main .aceptarButton:hover{
+    background-color: rgba(135, 6, 161, 0.438);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+/*MEDIAS QUERYS*/
+
+@media (min-width: 1023px){
+
+    .welcome {
+        display: block;
+        width: 40%;
+        height: 60px;
+        margin-top: 40px;
+        margin-left: 50%;
+    }
+
+    .welcome h2{
+        font-size: 2.7em;
+
+    }
+
+
+    .cajaClientes{
+        display: block;
+        width: 30%;
+        height: 260px;
+        margin-left: 55%;
+        margin-top: 10vh;
+        padding: 30px; 
+        border-radius: 30%;
+        background-color: rgba(39, 35, 35, 0.705);
+        box-shadow: 1px 10px 20px 10px rgba(0, 0, 0, 0.836);
+    
+    }
+    
+    .cajaClientes a{
+        display: block;
+        width: 60%;
+        height: 50px;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 10px;
+        margin: auto;
+        background-color: rgba(152, 63, 194, 0.884);
+    
+    }
+    
+    .cajaClientes a:first-child{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    
+    }
+    
+    .cajaClientes a{
+        display: block;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: adv1;
+    
+    }
+    
+    .cajaClientes a:hover{
+        display: block;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.534);
+        color: rgb(174, 0, 255);
+    
+    }
+
+    /*ACEPTAR*/
+    .otroBody{
+        background: linear-gradient(rgba(129, 127, 127, 0.336), rgba(5, 7, 12, 0.973)),url(img/Fondo_Desktop_768_DISTOR.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    
+    }
+    
+    .terminos{
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 5vh;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.322);
+        filter: drop-shadow(0 0 0.9rem #7c2f8fbb);
+        
+    
+    }
+    
+    
+    main .aceptarButton{
+        background-color: rgba(92, 88, 88, 0.493);
+        border-radius: 20px;
+        display: block;
+        width: 40%;
+        height: 60px;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+        transition: all;
+        transition-duration: 0.4s;
+    }
+    
+    main .aceptarButton:hover{
+        background-color: rgba(135, 6, 161, 0.438);
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+        width: 50%;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-top: 8px;
+    
+    }
+    
+
+}
+
+
+
