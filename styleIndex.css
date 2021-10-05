@@ -6,6 +6,12 @@
     src: url(fuentes/aero/Aero\ Matics\ Regular.ttf);
 }
 
+/**********************************************************************/
+/*                             index.html                             */
+/**********************************************************************/
+/*                              MOBILE                                */
+/**********************************************************************/
+
 /*-------------------------RESET Y GENERAL--------------------*/
 *{
     padding: 0;
@@ -25,9 +31,9 @@ body{
 }
 
 
-/*-------------------------HEADER-----------------------------*/
-/*LOGO*/
+/*--------------------------------HEADER--------------------------------*/
 
+/*--------------------------------LOGO--------------------------------*/
 header .logo{
     display: block;
     width: 90%;
@@ -36,8 +42,8 @@ header .logo{
     margin-top: 10px;
     text-align: center;
 }
-/*NAV*/
 
+/*--------------------------------NAV---------------------------------*/
 header nav a{
     display: block;
     background-color: rgba(109, 52, 97, 0.6);
@@ -71,7 +77,7 @@ header nav a:last-child{
 
 }
 
-/*HR*/
+/*--------------------------------HR--------------------------------*/
 hr{
     display: block;
     width: 40%;
@@ -103,7 +109,7 @@ hr{
 
 }
 
-/*-------------------------IMAGEN OCULTA PARA MOVIL-------------------------------*/
+/*-------------------------IMAGEN OCULTA PARA MOVIL------------*/
 .indexImg img{
     display: none;
 
@@ -127,60 +133,6 @@ hr{
 
 }
 
-.mas_comun h3, li a{
-    display: block;
-    border-bottom: 2px solid rgb(7, 0, 0);
-    border-radius: 10px;
-    width: 99%;
-    height: 40px;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    
-}
-
-.mas_comun h3{
-    /*border-bottom: 6px solid rgba(163,124,159,0.6);*/
-    border-radius: 0;
-    border-style: outset;
-    border-bottom-color: rgba(109, 17, 146, 0.6);
-    border-top-color: rgba(109, 17, 146, 0.6);
-    border-left-style: none;
-    border-right-style: none;
-    height: 60px;
-    padding-top: 15px;
-    background-color: rgba(255, 255, 255, 0.74);
-    color: rgba(5, 1, 1, 0.829);
-    font-family: adv1;
-    
-
-}
-
-.mas_comun li:first-child{
-    margin-top: 20px;
-
-}
-
-.mas_comun a{
-    width: 75%;
-    margin-top: 2px;
-    padding-top: 10px;
-    background-color: rgba(163,124,159,0.6);
-    border-bottom: 4px solid rgba(109, 52, 97, 0.6);
-    
-
-}
-
-.mas_comun li:last-child{
-    margin-bottom: 25px;
-
-}
-
-.mas_comun a:hover{
-    background-color: rgba(100,40,96, 0.860);
-
-}
 
 /*-------------------------FOOTER-----------------------------*/
 
@@ -194,10 +146,19 @@ footer h4{
 }
 
 
+/**********************************************************************/
+/*                            MEDIAS QUERYS                           */
+/**********************************************************************/
 
-/*-------------------------MEDIA QUERYS-----------------------*/
 /*Resolución Tablets*/
 @media (min-width: 767px){
+
+    /**********************************************************************/
+    /*                             index.html                             */
+    /**********************************************************************/
+    /*                              TABLET                                */
+    /**********************************************************************/
+
     body{
         background: linear-gradient(rgba(129, 127, 127, 0.336), rgba(5, 7, 12, 0.973)),url(img/Fondo_Desktop_768.jpg);
         background-position: center;
@@ -207,15 +168,14 @@ footer h4{
         font-size: 25px;
     }
 
-    /*MODIFICAR EL PNG DEL TITULO****************************************************************************************/
-    /*LOGO*/
+    /*--------------------------------LOGO--------------------------------*/
     header .logo{
         width: 95%;
         height: 240px;
         margin-top: 60px;
     }
-    /*NAV*/
 
+    /*--------------------------------NAV---------------------------------*/
     header nav a{
         border-bottom: 12px solid rgba(109, 52, 97, 0.6);
         border-radius: 10px;
@@ -227,7 +187,6 @@ footer h4{
         font-family: adv;
 
     }
-
 
     header nav a:first-child{
         margin-top: 70px;
@@ -241,7 +200,6 @@ footer h4{
 
 
     /*-------------------------MAIN-------------------------------*/
-
     .welcome {
         width: 90%;
         height: 40px;
@@ -270,56 +228,7 @@ footer h4{
 
     }
 
-    .mas_comun li a{
-        border-bottom: 8px solid rgba(7, 0, 0, 0.795);
-        border-radius: 10px;
-        width: 70%;
-        height: 65px;
-        font-size: 1.6em;
-
-        
-    }
-    
-
-    .mas_comun h3{
-        border-bottom-color: rgba(109, 17, 146, 0.6);
-        border-top-color: rgba(109, 17, 146, 0.6);
-        width: 90%;
-        height: 120px;
-        padding-top: 25px;
-        margin-top: 180px;
-        font-size: 1.9em;
-    
-
-    }
-
-    .mas_comun li:first-child{
-        margin-top: 50px;
-
-    }
-
-    .mas_comun a{
-        width: 75%;
-        margin-top: 2px;
-        padding-top: 10px;
-        background-color: rgba(163,124,159,0.6);
-        border-bottom: 4px solid rgba(109, 52, 97, 0.6);
-    
-
-    }
-
-    .mas_comun li:last-child{
-        margin-bottom: 85px;
-
-    }
-
-    .mas_comun a:hover{
-        background-color: rgba(100,40,96, 0.860);
-
-    }
-
     /*-------------------------FOOTER-----------------------------*/
-
     footer{
         width: 99%;
         height: 50px;
@@ -337,14 +246,21 @@ footer h4{
 
 /*Resolución Pantallas 1024x1366px */
 @media (min-height: 1365px){
-    /*MAIN para bajar FOOTER*/
+
+    /**********************************************************************/
+    /*                             index.html                             */
+    /**********************************************************************/
+    /*                            TABLET/iPAD Pro                         */
+    /**********************************************************************/
+
+    /*--------------------------------MAIN--------------------------------*/
     main{
         display: block;
         width: 100%;
         height: 68vh;
 
     }
-    /*LOGO*/
+    /*--------------------------------LOGO--------------------------------*/
     header .logo{
         display: inline-block;
         width: 20%;
@@ -360,7 +276,7 @@ footer h4{
 
     }
 
-    /*NAV*/
+    /*--------------------------------NAV---------------------------------*/
     header nav{
         display: block;
         width: 60%;
@@ -397,12 +313,12 @@ footer h4{
     
     }
 
-    /*HR*/
+    /*--------------------------------HR--------------------------------*/
     hr{
         display: none;
     }
 
-    /*-------------------------MAIN-------------------------------*/
+    /*--------------------------------MAIN--------------------------------*/
     .welcome {
         display: block;
         width: 40%;
@@ -472,15 +388,23 @@ footer h4{
 
 }
 
+/*Resolucion 1024px*/
 @media (min-width: 1023px){
-    /*MAIN para bajar FOOTER*/
+
+    /**********************************************************************/
+    /*                             index.html                             */
+    /**********************************************************************/
+    /*                               DESKTOP                              */
+    /**********************************************************************/
+
+    /*--------------------------------MAIN--------------------------------*/
     main{
         display: block;
         width: 100%;
         height: 68vh;
 
     }
-    /*LOGO*/
+    /*--------------------------------LOGO--------------------------------*/
     header .logo{
         display: inline-block;
         width: 15%;
@@ -502,7 +426,7 @@ footer h4{
 
     }
 
-    /*NAV*/
+    /*--------------------------------NAV---------------------------------*/
     header nav{
         display: block;
         width: 60%;
@@ -539,12 +463,7 @@ footer h4{
     
     }
 
-    /*HR*/
-    hr{
-        display: none;
-    }
-
-    /*-------------------------MAIN-------------------------------*/
+    /*--------------------------------MAIN--------------------------------*/
     .welcome {
         display: block;
         width: 40%;

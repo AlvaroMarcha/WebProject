@@ -1,0 +1,44 @@
+Esta hoja esta para establecer como se organizarán las guías de estilos y que contendrá cada una.
+Empezamos por:
+----- styleIndex.css
+        - Contiene el código de los siguientes apartados:
+            * index.html
+                _ Contiene todas las resoluciones del index.html (MediaQuerys)
+                _ Header (index)
+                _ Main (index)
+                _ Footer (index)
+            
+----- styleClientes.css 
+        - Contiene el código de los siguientes apartados: 
+            * clientes.html
+                _ Contiene todas las resoluciones del clientes.html (MediaQuerys)
+                _ Contiene todas las resoluciones del aceptar.html (MediaQuerys)
+                _ Main (clientes)
+            
+            * aceptar.html
+                _ Contiene todas las resoluciones del aceptar.html (MediaQuerys)
+                _ Main (aceptar)
+                _ Button (aceptar)
+
+----- styleClientesForm.css
+        - Contiene el código de los siguientes apartados:
+            * login.html
+                _ Contiene todas las resoliciones de login.html (MediaQuerys)
+                _ Main (login)
+
+            * register.html
+                _ Contiene todas las resoliciones de register.html (MediaQuerys)
+                _ Main (register)
+                _ Enviar (register)
+
+----- styleProductos.css
+        - Contiene el código de los siguientes apartados: 
+            * productos.html
+                _ Contiene todas las resoluciones de productos.html (MediaQuerys)
+                _ 
+#
+#
+#
+#
+#
+#
